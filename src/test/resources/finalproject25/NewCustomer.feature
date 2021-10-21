@@ -16,5 +16,3 @@ Feature: Adding new Customer
     And User Inputs Email
     Then User validates by clicking the submit button
     And check more outcomes
-
- 
