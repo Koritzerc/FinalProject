@@ -1,4 +1,3 @@
-
 @NewCustomer
 Feature: Adding new Customer 
 
