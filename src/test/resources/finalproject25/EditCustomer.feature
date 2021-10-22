@@ -10,7 +10,7 @@ Feature: Edit customer Functionality
     Then User enters <mandatory field>
     
     Examples: 
-    |Customer Id| mandory field|
-
+    |Customer Id| mandory field |
+    |name       |mandatory field|
 
  
