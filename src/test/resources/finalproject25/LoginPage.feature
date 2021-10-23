@@ -4,4 +4,4 @@ Feature: Login Page Functionality
     Given User navigates to login page
     When User provides valid credential
     Then User clicks login button
-    And User verify "Guru99 Bank" title is displayed
+    And User verify "Guru99 Insurance" title is displayed

@@ -8,13 +8,13 @@ import com.noorteck.qa.utils.CommonUI;
 
 public class LoginPage {
 	
-	@FindBy(name = "uid")
+	@FindBy(name = "email")
 	WebElement userIdField;
 	
 	@FindBy(name = "password")
 	WebElement passwordField;
 	
-	@FindBy(name = "btnLogin")
+	@FindBy(name = "submit")
 	WebElement loginBtn;
 	
 	public LoginPage() {

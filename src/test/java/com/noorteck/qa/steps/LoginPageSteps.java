@@ -14,7 +14,7 @@ public class LoginPageSteps {
 	
 	@Given("User navigates to login page")
 	public void user_navigates_to_login_page() {
-	    String url = "http://demo.guru99.com/v4/index.php";
+	    String url = "http://demo.guru99.com/insurance/v1/index.php";
 	    CommonUI.openBrowser("chrome");
 	    CommonUI.navigate(url);
 	    
@@ -23,8 +23,8 @@ public class LoginPageSteps {
 
 	@When("User provides valid credential")
 	public void user_provides_valid_credential() {
-		loginPage.enterUserId("mngr360115");
-		loginPage.enterPassword("hYnajut");
+		loginPage.enterUserId(" jsjeh@gmail.com");
+		loginPage.enterPassword(" dutrep-Zihwe7-goxvow");
 	}
 	   
 	
